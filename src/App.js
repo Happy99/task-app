@@ -1,4 +1,5 @@
 import AllTasks from "./components/AllTasks"
+import Pocitadlo from "./components/Pocitadlo"
 
 const App = () => {
 
@@ -6,6 +7,7 @@ const App = () => {
     return (
         <div className="main-wrapper">
             <AllTasks />
+            <Pocitadlo />
         </div>
     )
 }
